@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+html{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+address{
+    font-style: normal;
+}
+
+ul li{
+    list-style:none ;
+}
+
+.header{
+    background-color: #252525;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    justify-content:space-around;
+    align-items:baseline;
+    display: flex;
+}
+
+.logo{
+    font-size: 25px;
+    line-height: 140%;
+    display: inline-block;
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav__item{
+    font-weight: 500;
+    color: #fff;
+    margin-bottom:10px;
+}
+
+.nav__item.flex{
+    display: flex;
+}
+
+.nav__item a{
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav__item:last-child{
+    margin-left: 50px;
+}
+
+
+/* MAIN */
+
+.main{
+    max-width:1230px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    margin-top: 50px;
+    
+}
+
+.main__title{
+    font-size: 28px;
+}
+
+.hr__main{
+    height:3px;
+    width: 60px;
+    border: 0;
+    background-color: #dfaa18;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.full{
+    width: 100%;
+}
+
+.main__section{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.tarif__titels__main{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.tarifs__block{
+    background-color: #dfaa18;
+    padding: 50px 30px;
+    border-radius: 2%;
+    margin-top: 30px;
+}
+
+.tarifs__block h3{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.tarifs{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.tarifs:last-child{
+    margin-bottom: 0;
+}
+
+.text{
+    margin-top:30px; 
+    text-align: center;
+    font-weight: 500;
+}
+
+.number__main{
+    color:#dfaa18;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.submain{
+    margin-top:20px;
+    justify-content: center;
+    display: flex;
+}
+
+/* FOOTER */ 
+
+footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footer{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding:50px 15px;
+    justify-content:space-around;
+    align-items:baseline;
+    display: flex;
+}
+
+.footer__hr{
+    background-color: #dfaa18;
+    height: 2px;
+    border: 0;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.footer__title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.footer__container{
+    padding: 0 15px;
+}

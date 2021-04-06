@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'iconmoon';
+  src:
+    url('fonts/iconmoon.ttf?ub5c96') format('truetype'),
+    url('fonts/iconmoon.woff?ub5c96') format('woff'),
+    url('fonts/iconmoon.svg?ub5c96#iconmoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconmoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e901";
+  font-size: 20px;
+  color: #dfaa18;
+  margin-right: 5px;
+}
+.icon-location:before {
+  content: "\e947";
+  font-size: 20px;
+  color: #dfaa18;
+  margin-right: 5px;
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-star:before {
+  content: "\e9d9";
+}
